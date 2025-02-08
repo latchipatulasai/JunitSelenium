@@ -11,7 +11,7 @@ import junit.framework.Assert;
 
 public class SauceLabs {
 	static WebDriver driver;
-
+ 
 	@org.junit.Test
 	public void login() {
 		// auto download chrome driver
