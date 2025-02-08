@@ -50,7 +50,7 @@ public class SauceLabss {
 		driver = new ChromeDriver();
 		// opening url
 		driver.get("https://www.saucedemo.com/");
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); 
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		String title = driver.getTitle();
